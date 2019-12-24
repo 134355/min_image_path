@@ -1,0 +1,7 @@
+builders:
+  image_builder:
+    import: 'package:min_image_path/src/builder.dart'
+    builder_factories: ['imagePathBuilder']
+    build_extensions: { '.dart': ['.images.dart'] }
+    auto_apply: root_package
+    build_to: source
